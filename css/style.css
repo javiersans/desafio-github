@@ -19,7 +19,7 @@
 .segmentoTop{
     grid-area: segmentoTop;
     background-color: grey;
-    color: thistle; 
+    color: whitesmoke; 
     height: 5vh;
     width: 100%;
     text-align: center;
@@ -41,7 +41,7 @@
 .nav { 
     grid-area: nav; 
     background-color: #222222;
-    color: thistle;
+    color: whitesmoke;
     display: flex;
     justify-content: space-between;
     height: 20vh;
@@ -61,7 +61,7 @@
 }
 
 a{
-    color: thistle;
+    color: whitesmoke;
     text-decoration: none;
 }
 
@@ -123,7 +123,7 @@ a{
     left: 210px;
     background-color: rgb(252, 15, 7);
     border: none;
-    color: thistle;
+    color: whitesmoke;
     padding: 4px;
     border-radius: 2px;
     font-weight: bold;
@@ -162,11 +162,11 @@ a{
 .copyright{
     padding: 5px;
     font-size: x-small;
-    color: thistle;
+    color: whitesmoke;
 }
 
 .contenedorRedes{
-    color: thistle;
+    color: whitesmoke;
 
 }
 
@@ -180,7 +180,7 @@ a{
 }
 
 .contenedorRedes li{
-    color: thistle;
+    color: whitesmoke;
         
 }
 
