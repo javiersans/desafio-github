@@ -55,7 +55,7 @@
 
 .nav ul{
     display: flex;
-    align-items: center;
+    align-items: right;
 }
 
 a{
@@ -199,6 +199,79 @@ a{
         top: 50px;
         left: 500px;
         width: 30%;
+ 
+}
+
+}
+
+/* RESPONSIVE DESIGN - MEDIA QUERY - MOBILE LAST = MAX WIDTH */
+@media (max-width: 768px) {
+
+.container {  
+    display: grid;
+    grid-template-areas:
+      "segmentoTop segmentoTop segmentoTop"
+      "nav nav nav"
+      "presentacion presentacion presentacion"
+      "dgr dgr dgr"
+      "footer footer footer";
+    }
+
+.logoPpal{
+    width: 80px;
+    }    
+
+.nav{
     
+    flex-direction: column;
+    align-items: center;
+    font-size: small;
+    padding-right: 50px;
+}
+
+.segmentoTop{
+    height: 4vh;
+    align-items: center;
+    font-weight:lighter;
+    text-align: left;
+    font-size: x-small;
+    padding-left: 90px;
+}
+
+.dgr{
+    width: 560px;
+    height: 900px;
+}
+
+.footer{
+    flex-direction: column;
+}
+
+.nav img{
+    padding-right: 280px;
+    width: 100px;
+    height: 100px;
+    
+}
+.nav li{
+    padding-right: 80px;
+    font-size: small;
+    padding: 0 20 0 0;
+}
+.logoFooter{
+    padding-right: 280px;
+    width: 100px;
+    height: 100px;
+    
+}
+
+.copyright p{
+    padding-right: 300px;
+}
+
+.contenedorRedes li{
+    padding-left: 0px;
+}
+
 
 }
