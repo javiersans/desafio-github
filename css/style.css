@@ -19,9 +19,11 @@
 .segmentoTop{
     grid-area: segmentoTop;
     background-color: grey;
-    color: white; 
+    color: thistle; 
     height: 5vh;
+    width: 100%;
     text-align: center;
+    margin: 0 auto;
 }
 
 .segmentoTop :hover{
@@ -39,7 +41,7 @@
 .nav { 
     grid-area: nav; 
     background-color: #222222;
-    color: #ffffff;
+    color: thistle;
     display: flex;
     justify-content: space-between;
     height: 20vh;
@@ -59,7 +61,7 @@
 }
 
 a{
-    color: #ffffff;
+    color: thistle;
     text-decoration: none;
 }
 
@@ -121,7 +123,7 @@ a{
     left: 210px;
     background-color: rgb(252, 15, 7);
     border: none;
-    color: #ffffff;
+    color: thistle;
     padding: 4px;
     border-radius: 2px;
     font-weight: bold;
@@ -160,11 +162,11 @@ a{
 .copyright{
     padding: 5px;
     font-size: x-small;
-    color: #ffffff;
+    color: thistle;
 }
 
 .contenedorRedes{
-    color: #ffffff;
+    color: thistle;
 
 }
 
@@ -178,7 +180,7 @@ a{
 }
 
 .contenedorRedes li{
-    color: #ffffff;
+    color: thistle;
         
 }
 
@@ -248,7 +250,7 @@ a{
 }
 
 .nav img{
-    padding-right: 280px;
+    padding-right: 250px;
     width: 100px;
     height: 100px;
     
