@@ -44,6 +44,7 @@
     justify-content: space-between;
     height: 20vh;
     align-items: center;
+    background-image: linear-gradient(to right, black, #3d3c3c);
 }
 
 .nav img{
@@ -89,7 +90,9 @@ a{
     top: 50px;
     left: 50px;
     width: 30%;
-    
+    animation-name: textoAvanza;
+    animation-duration: 10s;
+    animation-iteration-count: initial;
 
 
 }
@@ -114,16 +117,24 @@ a{
 
 .btn{
     position: absolute;
-    top: 520px;
-    left: 350px;
+    top: 162px;
+    left: 210px;
     background-color: rgb(252, 15, 7);
     border: none;
     color: #ffffff;
     padding: 4px;
     border-radius: 2px;
     font-weight: bold;
+    background-image: linear-gradient(45deg, rgb(252, 10, 191), purple, rgb(252, 10, 191));
+    
 }
 
+.dgr button:hover{
+    transition: 0.3s;
+    transform: scale(1.10);
+    ;
+
+}
 
 
 /* footer */
@@ -136,6 +147,7 @@ a{
     align-content: center;
     justify-content: space-between;
     align-items: center;
+    background-image: linear-gradient(to right, black, #3d3c3c);
     
 }
 
@@ -163,18 +175,30 @@ a{
     font-size: small;
     width: 100px;
     
-
 }
 
 .contenedorRedes li{
     color: #ffffff;
-       
-    
+        
 }
 
 .contenedorRedes li:hover{
     color: red;
+        
+}
+
+@keyframes textoAvanza{
+    0%{
+        position: absolute;
+        top: 50px;
+        left: 50px;
+        width: 30%; 
+    }
+    100%{
+        position: absolute;
+        top: 50px;
+        left: 500px;
+        width: 30%;
     
-    
-    
+
 }
