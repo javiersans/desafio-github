@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.container {  
+    display: grid;
+    grid-template-areas:
+      "segmentoTop segmentoTop segmentoTop segmentoTop segmentoTop segmentoTop"
+      "nav nav nav nav nav nav"
+      "presentacion presentacion presentacion presentacion dgr dgr"
+      "presentacion presentacion presentacion presentacion dgr dgr"
+      "footer footer footer footer footer footer";
+      
+  }
+
+.segmentoTop{
+    grid-area: segmentoTop;
+    background-color: grey;
+    color: white; 
+    height: 5vh;
+    text-align: center;
+}
+
+.segmentoTop :hover{
+    color: #222222;
+}
+
+.segmentoTop span{
+    font-weight: bolder;
+}
+
+.segmentoTop p{
+    padding-top: 7px;
+}
+
+.nav { 
+    grid-area: nav; 
+    background-color: #222222;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    height: 20vh;
+    align-items: center;
+}
+
+.nav img{
+    width: 100px;
+    height: 100px;
+    
+}
+
+.nav ul{
+    display: flex;
+    align-items: center;
+}
+
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.nav li{
+    list-style: none;
+    padding: 0 15px;
+    
+
+}
+
+.nav ul :hover{
+    color: darkgrey;
+}
+
+.presentacion{
+    grid-area: presentacion;
+    
+}
+
+.imgHome{
+    position: relative;
+    display: inline-block;
+    
+}
+
+.textoPasion{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 30%;
+    
+
+
+}
+
+
+.dgr{
+    grid-area: dgr;
+    
+}
+
+.dgr{
+    background-image: url("http://revista400.cc/wp-content/uploads/2021/03/DGR21-POSTER-FA.jpg");
+    display: inline-block;
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+    width:460px;
+    height:580px;
+    position: relative;
+    
+}	
+
+.btn{
+    position: absolute;
+    top: 520px;
+    left: 350px;
+    background-color: rgb(252, 15, 7);
+    border: none;
+    color: #ffffff;
+    padding: 4px;
+    border-radius: 2px;
+    font-weight: bold;
+}
+
+
+
+/* footer */
+
+.footer{
+    grid-area: footer;
+    background-color: #222222;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logoFooter{
+    width: 100px;
+    padding: px;
+    margin-right: 20px;
+} 
+
+.copyright{
+    padding: 5px;
+    font-size: x-small;
+    color: #ffffff;
+}
+
+.contenedorRedes{
+    color: #ffffff;
+
+}
+
+.contenedorRedes ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    font-size: small;
+    width: 100px;
+    
+
+}
+
+.contenedorRedes li{
+    color: #ffffff;
+       
+    
+}
+
+.contenedorRedes li:hover{
+    color: red;
+    
+    
+    
+}
